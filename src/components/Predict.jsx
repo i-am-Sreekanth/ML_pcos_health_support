@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 
 // --- Gemini API credentials (free tier) ---
-const API_KEY = "AIzaSyCEWO4u1Twn8C_U-EVybVEI55zjoCVnzmU";  // Replace with your actual key
+const API_KEY = "API-KEY-GOES-HERE";  
 const SYSTEM_PROMPT = `
 You are a conversational AI assistant integrated into a women's health application.
 You have access to structured health inputs and computed PCOS-related indicators, but you must behave like a normal LLM in conversation.
@@ -448,5 +448,6 @@ Please use this patient data to inform your responses.`;
     </div>
   );
 };
+
 
 export default PCOSAdvancedPredictor;
